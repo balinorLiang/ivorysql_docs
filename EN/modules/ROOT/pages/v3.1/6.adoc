@@ -149,7 +149,7 @@ $ sudo make install
 
 [TIP]
 ====
-When the compilation is completed, you can test the result with 'make check' or 'make all-check-world', before your installation
+When the compilation is completed, you can test the result with 'make check' or 'make all-check-world' before your installation
 ====
 
 == 启动数据库
@@ -215,7 +215,7 @@ ivorysql  3238  1551  0 20:35 pts/0    00:00:00 grep --color=auto postgres
 
 Connect to IovrySQL via psql:
 ```
-$ psql -d ivorysql
+$ psql -d <database>
 psql (16.1)
 Type "help" for help.
 

@@ -211,7 +211,7 @@ ivorysql  3238  1551  0 20:35 pts/0    00:00:00 grep --color=auto postgres
 
 psql连接数据库：
 ```
-$ psql -d ivorysql
+$ psql -d <database>
 psql (16.1)
 Type "help" for help.
 
@@ -253,7 +253,7 @@ $ docker rmi ivorysql/ivorysql:3.1-ubi8
 执行以下命令查询已安装的rpm包，依次卸载并清理文件夹：
 ```
 $ rpm -qa | grep ivorysql
-$ sudo rpm -e ivorysql3-contrib-3.1-1.rhel7.x86_64
+$ sudo rpm -e ivorysql3-contrib-3.1-1.rhel7.x86_64 --nodeps
 $ sudo rpm -e ivorysql3-server-3.1-1.rhel7.x86_64
 $ sudo rpm -e ivorysql3-3.1-1.rhel7.x86_64
 $ sudo rpm -e ivorysql3-libs-3.1-1.rhel7.x86_64 
