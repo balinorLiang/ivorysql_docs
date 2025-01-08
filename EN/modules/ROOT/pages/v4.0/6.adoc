@@ -97,15 +97,8 @@ $ sudo dnf install -y lz4 libicu libxslt python3
 ```
 $ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-4.0-1.rhel8.x86_64.rpm
 $ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-contrib-4.0-1.rhel8.x86_64.rpm
-$ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-devel-4.0-1.rhel8.x86_64.rpm
-$ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-docs-4.0-1.rhel8.x86_64.rpm
 $ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-libs-4.0-1.rhel8.x86_64.rpm
-$ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-llvmjit-4.0-1.rhel8.x86_64.rpm
-$ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-plperl-4.0-1.rhel8.x86_64.rpm
-$ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-plpython3-4.0-1.rhel8.x86_64.rpm
-$ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-pltcl-4.0-1.rhel8.x86_64.rpm
 $ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-server-4.0-1.rhel8.x86_64.rpm
-$ sudo wget https://github.com/IvorySQL/IvorySQL/releases/download/IvorySQL_4.0/ivorysql4-test-4.0-1.rhel8.x86_64.rpm
 ```
 ** Installing rpms
 
